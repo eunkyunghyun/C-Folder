@@ -5,7 +5,7 @@ int main(void)
 {
 	int i;
 
-	printf("¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("Â¼Ã½Ã€ÃšÂ¸Â¦ Ã€Ã”Â·Ã‚Ã‡ÃÂ¼Â¼Â¿Ã¤: ");
 	scanf_s("%d", &i);
 
 	binary(i);
