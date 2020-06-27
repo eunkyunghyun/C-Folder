@@ -1,4 +1,4 @@
-#include <stdio.h>
+/* #include <stdio.h>
 void type(void);
 
 int main(void)
@@ -22,3 +22,4 @@ void type(void)
 	printf("auto_count = %d\n", auto_count);
 	printf("static_count = %d\n", static_count);
 }
+*/
