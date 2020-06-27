@@ -1,9 +1,10 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main(void)
 {
 	int i;
 
-	for (printf("π›∫πΩ√¿€"), i = 0; i < 100; i++)
+	for (printf("¬π√ù¬∫¬π¬Ω√É√Ä√õ"), i = 0; i < 100; i++)
 		printf("Hello World!\n");
 }
+*/
