@@ -1,15 +1,15 @@
-/* #include<stdio.h>
+/* #include <stdio.h>
 
 int main(void)
 {
 	int i = 3000;
 	int* p = &i;
 	
-	printf("&i = %u\n", &i); // º¯¼ö ÁÖ¼Ò Ãâ·Â
-	printf("i = %d\n", i); // º¯¼ö °ª Ãâ·Â
+	printf("&i = %u\n", &i); // ë³€ìˆ˜ ì£¼ì†Œ ì¶œë ¥
+	printf("i = %d\n", i); // ë³€ìˆ˜ ê°’ ì¶œë ¥
 
-	printf("*p = %d\n", *p); // Æ÷ÀÎÅÍ ÂüÁ¶ °ª Ãâ·Â
-	printf("p = %u\n", p); // Æ÷ÀÎÅÍ °ª Ãâ·Â
+	printf("*p = %d\n", *p); // í¬ì¸í„° ì°¸ì¡° ê°’ ì¶œë ¥
+	printf("p = %u\n", p); // í¬ì¸í„° ê°’ ì¶œë ¥
 
 	return 0;
 }
