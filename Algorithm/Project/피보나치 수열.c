@@ -1,28 +1,27 @@
 /* #include <stdio.h>
-int fibonaci(int a, int b, int range);
+int fibonacci(int a, int b, int range);
 
 int main(void)
 {
 	int range;
-
-	printf("¼ö¿­ ¹üÀ§¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+	
+	printf("í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ ì¶œë ¥ ë²”ìœ„ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf_s("%d", &range);
 
-	printf("ÇÇº¸³ªÄ¡ ¼ö¿­: ");
-
-	fibonaci(-1, 1, range);
-
-	return 0;
+	printf("í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´: ");
+	
+	if (range > 0)
+		fibonacci(-1, 1, range);
+	else
+		printf("ì—†ìŒ");
 }
 
-int fibonaci(int a, int b, int range)
+int fibonacci(int a, int b, int range)
 {
 	if (a + b < range)
 	{
 		printf("%d ", a + b);
-		fibonaci(b, a + b, range);
+		fibonacci(b, a + b, range);
 	}
-
-	return 0;
 }
 */
