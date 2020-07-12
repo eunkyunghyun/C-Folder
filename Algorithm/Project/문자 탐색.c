@@ -13,9 +13,9 @@ int main(void)
 	loc++;
 
 	if (p != NULL)
-		printf("ù��° ���ڰ� �迭�� %d��°���� Ž���Ǿ����ϴ�.\n", c, loc);
+		printf("첫번째 문자가 배열의 %d번째에서 탐색되었습니다.\n", loc);
 	else
-		printf("���ڰ� Ž������ �ʾҽ��ϴ�.\n", c);
+		printf("문자가 탐색되지 않았습니다.\n");
 
 	return 0;
 }
