@@ -5,10 +5,10 @@ int main(void)
 	char name[100];
 	char address[100];
 
-	printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 	gets(name);
 
-	printf("ÁÖ¼Ò¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ì£¼ì†Œë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 	gets(address);
 
 	puts(name);
