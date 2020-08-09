@@ -11,7 +11,7 @@ int main(void)
 
 	pf = sum;
 
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 	scanf_s("%d %d", &a, &b);
 
 	result = pf(a, b);
@@ -20,7 +20,7 @@ int main(void)
 
 	pf = sub;
 
-	printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 	scanf_s("%d %d", &a, &b);
 
 	result = pf(a, b);
