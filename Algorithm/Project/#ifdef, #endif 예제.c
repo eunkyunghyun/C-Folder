@@ -1,10 +1,10 @@
 #include <stdio.h>
-#define TEST
+#define DEBUG
 
 int main(void)
 {
-#ifdef TEST
-	printf("TEST");
+#ifdef DEBUG
+	printf("DEBUG");
 #endif
 	return 0;
 }
