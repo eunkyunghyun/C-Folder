@@ -2,9 +2,9 @@
 
 int main(void)
 {
-#ifndef TEST
-#define TEST
-	printf("TEST");
+#ifndef DEBUG
+#define DEBUG
+	printf("DEBUG");
 #endif
 	return 0;
 }
