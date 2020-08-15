@@ -4,7 +4,7 @@
 int main(void)
 {
 #ifdef TEST
-	printf("테스트입니다.");
+	printf("TEST");
 #endif
 	return 0;
 }
