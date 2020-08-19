@@ -2,24 +2,27 @@
 
 int main(void)
 {
-	int N;
+	int n;
 	int i = 1;
 	int sum1, sum2;
 
-	scanf_s("%d", &N);
+	scanf_s("%d", &n);
 
-	sum1 = (N % 10 * 10) + ((N / 10 + N % 10) % 10);
+	sum1 = (n % 10 * 10) + ((n / 10 + n % 10) % 10);
 
 	while (1)
 	{
 		sum2 = (sum1 % 10 * 10) + ((sum1 / 10 + sum1 % 10) % 10);
 		sum1 = sum2;
 		i++;
-		if (sum2 == N)
+		if (sum2 == n)
 			break;
 	}
 
-	printf("%d", i);
-	
+	if (n == 0)
+		printf("%d", 1);
+	else
+		printf("%d", i);
+
 	return 0;
 }
