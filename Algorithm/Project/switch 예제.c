@@ -2,12 +2,12 @@
 
 int main(void)
 {
-	int n;
+	int number;
 
 	printf("정수를 입력하세요: ");
-	scanf_s("%d", &n);
+	scanf_s("%d", &number);
 
-	switch (n)
+	switch (number)
 	{
 		case 0:
 			printf("A\n");
