@@ -2,10 +2,10 @@
 
 int main(void)
 {
-	char str;
+	char ascii;
 	
-	scanf_s("%c", &str);
-	printf("%d", str);
+	scanf_s("%c", &ascii);
+	printf("%d", ascii);
 
 	return 0;
 }
