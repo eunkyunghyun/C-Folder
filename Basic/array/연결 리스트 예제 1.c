@@ -22,4 +22,16 @@ int main(void)
 	node2->next = NULL;
 
 	struct NODE* curr = head->next;
+
+	while (curr != NULL)
+	{
+		printf("%d\n", curr->data);
+		curr = curr->next;
+	}
+
+	free(node1);
+	free(node2);
+	free(head);
+
+	return 0;
 }
