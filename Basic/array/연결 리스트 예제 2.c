@@ -4,8 +4,8 @@
 struct NODE
 {
 	struct NODE* next;
-	int year;
 	char name[100];
+	int year;
 };
 
 int main(void)
