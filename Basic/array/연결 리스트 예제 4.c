@@ -16,7 +16,7 @@ int main(void)
 	head->next = node1;
 
 	printf("과일 이름을 입력하세요: ");
-	scanf("%s", &node1->name[100]);
+	scanf("%s", &node1->name);
 
 	printf("과일 가격을 입력하세요: ");
 	scanf("%d", &node1->price);
@@ -25,7 +25,7 @@ int main(void)
 	node1->next = node2;
 
 	printf("과일 이름을 입력하세요: ");
-	scanf("%s", &node2->name[100]);
+	scanf("%s", &node2->name);
 
 	printf("과일 가격을 입력하세요: ");
 	scanf("%d", &node2->price);
@@ -34,7 +34,7 @@ int main(void)
 	node2->next = node3;
 
 	printf("과일 이름을 입력하세요: ");
-	scanf("%s", &node3->name[100]);
+	scanf("%s", &node3->name);
 
 	printf("과일 가격을 입력하세요: ");
 	scanf("%d", &node3->price);
@@ -43,7 +43,7 @@ int main(void)
 	node3->next = node4;
 
 	printf("과일 이름을 입력하세요: ");
-	scanf("%s", &node4->name[100]);
+	scanf("%s", &node4->name);
 
 	printf("과일 가격을 입력하세요: ");
 	scanf("%d", &node4->price);
@@ -54,7 +54,7 @@ int main(void)
 
 	while (curr != NULL)
 	{
-		printf("과일 이름: %s, 과일 가격: %d\n", curr->name[100], curr->price);
+		printf("과일 이름: %s, 과일 가격: %d\n", curr->name, curr->price);
 		curr = curr->next;
 	}
 
