@@ -1,4 +1,4 @@
-/* #include <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {
@@ -7,13 +7,12 @@ int main(void)
 	
 	for (i = 0; i < 3; i++)
 	{
-		printf("°úÀÏ ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ", fruits[i]);
+		printf("ê³¼ì¼ ì´ë¦„ì„ ìž…ë ¥í•˜ì„¸ìš”: ", fruits[i]);
 		scanf_s("%s", fruits[i]);
 	}
 
 	for (i = 1; i <= 3; i++)
-		printf("%d¹øÂ° °úÀÏ: %s\n", i, fruits[i-1]);
+		printf("%dë²ˆì§¸ ê³¼ì¼: %s\n", i, fruits[i-1]);
 
 	return 0;
 }
-*/
