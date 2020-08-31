@@ -1,4 +1,4 @@
-/* #include <stdio.h>
+#include <stdio.h>
 void reverse(int a[], int n);
 
 int main(void)
@@ -17,4 +17,3 @@ void reverse(int a[], int n)
 	while (p >= a)
 		printf("%d\n", *p--);
 }
-*/
