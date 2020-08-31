@@ -9,7 +9,7 @@ int main(void)
 	int grade[SIZE];
 
 	for (i = 0; i < SIZE; i++)
-		printf("´Ù¼¸ ¸íÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		printf("ë‹¤ì„¯ ëª…ì˜ ì ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 		scanf_s("%d", &grade[i]);
 
 	for (i = 0; i < SIZE; i++)
