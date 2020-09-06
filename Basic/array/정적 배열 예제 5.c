@@ -1,4 +1,4 @@
-/* #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #define SIZE 20
@@ -21,8 +21,7 @@ int main(void)
 			number = value[i];
 	}
 	
-	printf("�ּҰ��� %d�Դϴ�.\n", number);
+	printf("ÃÖ¼Ò°ªÀº %dÀÔ´Ï´Ù.\n", number);
 
 	return 0;
 }
-*/

@@ -1,14 +1,14 @@
-/* #include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 #define SIZE 5
 
 int main(void)
 {
 	int i, index;
-	char dictionary[SIZE][2][30] = { {"apple", "»ç°ú"}, {"book", "Ã¥"}, {"car", "ÀÚµ¿Â÷"}, {"dove", "ºñµÑ±â"}, {"easy", "½¬¿î"} };
+	char dictionary[SIZE][2][30] = { {"apple", "ì‚¬ê³¼"}, {"book", "ì±…"}, {"car", "ìë™ì°¨"}, {"dove", "ë¹„ë‘˜ê¸°"}, {"easy", "ì‰¬ìš´"} };
 	char word[30];
 
-	printf("´Ü¾î¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ë‹¨ì–´ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf_s("%s", word);
 	
 	index = 0;
@@ -23,6 +23,7 @@ int main(void)
 		index++;
 	}
 
-	printf("»çÀü¿¡¼­ Å½»öµÇÁö ¾Ê¾Ò½À´Ï´Ù.");
+	printf("ì‚¬ì „ì—ì„œ íƒìƒ‰ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.");
+	
+	return 0;
 }
-*/

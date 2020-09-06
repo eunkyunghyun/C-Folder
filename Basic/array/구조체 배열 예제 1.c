@@ -1,4 +1,4 @@
-/* #include <stdio.h>
+#include <stdio.h>
 #define SIZE 3
 
 struct student {
@@ -14,21 +14,20 @@ int main(void)
 
 	for (i = 0; i < SIZE; i++)
 	{
-		printf("ÇÐ¹øÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+		printf("í•™ë²ˆì„ ìž…ë ¥í•˜ì„¸ìš”: ");
 		scanf("%d", &list[i].number);
 
-		printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ");
+		printf("ì´ë¦„ì„ ìž…ë ¥í•˜ì„¸ìš”: ");
 		scanf("%s", list[i].name);
 
-		printf("ÇÐÁ¡À» ÀÔ·ÂÇÏ¼¼¿ä: ");
+		printf("í•™ì ì„ ìž…ë ¥í•˜ì„¸ìš”: ");
 		scanf("%lf", &list[i].grade);
 
 		printf("\n");
 	}
 
 	for (i = 0; i < SIZE; i++)
-		printf("ÇÐ¹ø: %d, ÀÌ¸§: %s, ÇÐÁ¡: %f\n", list[i].number, list[i].name, list[i].grade);
+		printf("í•™ë²ˆ: %d, ì´ë¦„: %s, í•™ì : %f\n", list[i].number, list[i].name, list[i].grade);
 
 	return 0;
 }
-*/
