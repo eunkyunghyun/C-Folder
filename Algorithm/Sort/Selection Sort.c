@@ -2,8 +2,8 @@
 
 int main(void)
 {
-    int min, temp;
     int arr[5] = { 3, -2, 0, 1, 5 };
+    int min, tmp;
 
     for (int i = 0; i < 4; i++)
     {
@@ -15,13 +15,15 @@ int main(void)
                 min = j;
             }
         }
-        temp = arr[min];
+        tmp = arr[min];
         arr[min] = arr[i];
-        arr[i] = temp;
+        arr[i] = tmp;
     }
 
     for (int i = 0; i < 5; i++)
-        printf("%d\n", arr[i]);
+    {
+        printf("%d \n", arr[i]);
+    }
 
     return 0;
 }
