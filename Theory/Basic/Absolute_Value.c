@@ -10,7 +10,7 @@ int main(void)
 	if (value < 0)
 		value = -value;
 	
-	printf("%d", value);
+	printf("%d\n", value);
 
 	return 0;
 }
