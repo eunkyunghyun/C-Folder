@@ -7,7 +7,7 @@ int main(void)
 	printf("enter the weight: ");
 	scanf("%lf", &weight);
 
-	printf("enter the height");
+	printf("enter the height: ");
 	scanf("%lf", &height);
 
 	printf("BMI = %lf, %lf\n", weight, height);
