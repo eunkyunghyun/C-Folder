@@ -6,7 +6,7 @@ int main(void)
 	int sum;
 	double avg;
 
-	printf("enter three integers: ");
+	printf("Please enter three integers: ");
 	scanf_s("%d %d %d", &x, &y, &z);
 
 	sum = x + y + z;
