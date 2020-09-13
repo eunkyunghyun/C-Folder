@@ -7,8 +7,9 @@ int main(void)
 	printf("Please enter one integer: ");
 	scanf("%d", &value);
 
-	if (value < 0)
+	if (value < 0) {
 		value = -value;
+	}
 	
 	printf("%d\n", value);
 
