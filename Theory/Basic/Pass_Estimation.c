@@ -11,11 +11,11 @@ int main(void)
 	scanf("%d", &science);
 
 	if (mathematics < 50 && science < 50)
-		printf("fail");
+		printf("fail\n");
 	else if (mathematics < 50 || science < 50)
-		printf("preliminary pass");
+		printf("preliminary pass\n");
 	else if (mathematics >= 50 && science >= 50)
-		printf("pass");
+		printf("pass\n");
 
 	return 0;
 }
