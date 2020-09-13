@@ -4,10 +4,10 @@ int main(void)
 {
 	double weight, height;
 
-	printf("enter the weight: ");
+	printf("Please enter the weight: ");
 	scanf("%lf", &weight);
 
-	printf("enter the height: ");
+	printf("Please enter the height: ");
 	scanf("%lf", &height);
 
 	printf("BMI = %lf, %lf\n", weight, height);
