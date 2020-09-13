@@ -2,12 +2,12 @@
 
 int main(void)
 {
-	char text;
+	char ascii;
 
-	printf("enter text = ");
-	scanf("%c", &text);
+	printf("Please enter the alphabet = ");
+	scanf("%c", &ascii);
 
-	printf("%c, %d", text, text);
+	printf("%c, %d", ascii, ascii);
 
 	return 0;
 }
