@@ -6,7 +6,7 @@ int main(void)
 	double circumference;
 	double area;
 
-	printf("enter the radius: ");
+	printf("Please enter the radius: ");
 	scanf("%lf", &radius);
 
 	circumference = 2.0 * 3.14 * radius;
