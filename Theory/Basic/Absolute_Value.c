@@ -1,3 +1,5 @@
+// Conditional Operator
+
 #include <stdio.h>
 
 int main(void)
@@ -15,6 +17,8 @@ int main(void)
 
 	return 0;
 }
+
+// Ternary Operator
 
 #include <stdio.h>
 
