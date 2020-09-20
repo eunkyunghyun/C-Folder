@@ -9,13 +9,13 @@ int main(void)
 
 	switch (grade)
 	{
-	case('A'):
+	case 'A':
 		printf("very good\n");
 		break;
-	case ('B'):
+	case 'B':
 		printf("good\n");
 		break;
-	case ('C'):
+	case 'C':
 		printf("not bad\n");
 		break;
 	default:
