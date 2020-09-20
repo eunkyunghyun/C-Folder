@@ -7,7 +7,7 @@ int main(void)
 	printf("Please enter the alphabet: ");
 	scanf("%c", &ascii);
 
-	printf("%c, %d", ascii, ascii);
+	printf("%c, %d\n", ascii, ascii);
 
 	return 0;
 }
