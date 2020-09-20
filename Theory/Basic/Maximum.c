@@ -10,7 +10,7 @@ int main(void)
 
 	max = (((x > y) ? x : y) > z) ? ((x > y) ? x : y) : z;
 
-	printf("%d", max);
+	printf("%d\n", max);
 
 	return 0;
 }
