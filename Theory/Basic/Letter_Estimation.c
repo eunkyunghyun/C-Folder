@@ -13,6 +13,8 @@ int main(void)
 		printf("small letter");
 	else if ((int)letter >= 48 && (int)letter <= 57)
 		printf("number");
+	else
+		printf("etc");
 
 	return 0;
 }
