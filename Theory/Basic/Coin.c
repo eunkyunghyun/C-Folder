@@ -4,7 +4,8 @@ int main(void)
 {
 	int money;
 	int a, b, c;
-
+	
+	printf("Please enter the money: ");
 	scanf("%d", &money);
 
 	a = money / 500;
