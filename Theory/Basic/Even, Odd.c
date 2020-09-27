@@ -19,7 +19,9 @@ int main(void)
 			even += arr[i];
 		}
 		else
+		{
 			odd += arr[i];
+		}
 	}
 
 	printf("even = %d\n", even);
