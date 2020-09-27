@@ -5,7 +5,7 @@ int main(void)
 	int money;
 	int a, b, c;
 	
-	printf("Please enter the money: ");
+	printf("Please enter your own money: ");
 	scanf("%d", &money);
 
 	a = money / 500;
