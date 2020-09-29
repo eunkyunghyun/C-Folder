@@ -1,4 +1,4 @@
-// Conditional Operator
+// Condition Operator
 
 #include <stdio.h>
 
