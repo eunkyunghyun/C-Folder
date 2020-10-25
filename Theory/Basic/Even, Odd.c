@@ -1,18 +1,19 @@
 #include <stdio.h>
+#define SIZE 10
 
 int main(void)
 {
-	int arr[10];
+	int arr[SIZE];
 	int even = 0;
 	int odd = 0;
 
-	for (int i = 0; i < sizeof(arr) / sizeof(int); i++)
+	for (int i = 0; i < SIZE; i++)
 	{
 		printf("Please enter an element: ");
 		scanf("%d", &arr[i]);
 	}
 
-	for (int i = 0; i < sizeof(arr) / sizeof(int); i++)
+	for (int i = 0; i < SIZE; i++)
 	{
 		if (arr[i] % 2 == 0)
 		{
