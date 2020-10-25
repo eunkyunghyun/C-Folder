@@ -5,21 +5,21 @@
 int main(void)
 {
 	int answer;
-	int i = 0;
+	int figure = 0;
 
 	srand(time(NULL));
 
 	answer = rand() % 100 + 1;
 
-	while (i != answer)
+	while (figure != answer)
 	{
-		scanf("%d", &i);
+		scanf("%d", &figure);
 
-		if (i < answer)
+		if (figure < answer)
 		{
 			printf("Up\n");
 		}
-		else if (i > answer)
+		else if (figure > answer)
 		{
 			printf("Down\n");
 		}
