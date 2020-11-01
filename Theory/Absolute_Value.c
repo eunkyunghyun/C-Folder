@@ -6,7 +6,7 @@ int main(void)
 {
 	int value;
 
-	printf("Please enter one integer: ");
+	printf("Please enter an integer: ");
 	scanf("%d", &value);
 
 	if (value < 0) {
