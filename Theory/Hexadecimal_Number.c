@@ -5,7 +5,8 @@ int main(void)
 	int decimal;
 	int index = 0;
 	int arr[100] = { 0 };
-
+	
+	printf("Please enter the decimal number: ");
 	scanf("%d", &decimal);
 
 	while (1)
