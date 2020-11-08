@@ -5,8 +5,6 @@ int main(void)
 	int decimal;
 	int index = 0;
 	int arr[100] = { 0 };
-	char str[100];
-	char c[100];
 
 	scanf("%d", &decimal);
 
@@ -21,52 +19,46 @@ int main(void)
 		}
 	}
 
-	for (int i = index; i > 0; i--)
+	for (int i = index - 1; i >= 0; i--)
 	{
 		switch (arr[i])
 		{
 		case (10):
 		{
-			str[i] = "A";
+			printf("a");
 			break;
 		}
 		case (11):
 		{
-			str[i] = "B";
+			printf("b");
 			break;
 		}
 		case (12):
 		{
-			str[i] = "C";
+			printf("c");
 			break;
 		}
 		case (13):
 		{
-			str[i] = "D";
+			printf("d");
 			break;
 		}
 		case (14):
 		{
-			str[i] = "E";
+			printf("e");
 			break;
 		}
 		case (15):
 		{
-			str[i] = "F";
+			printf("f");
 			break;
 		}
 		default:
 		{
-			sprintf(c, "%d", arr[i]);
-			str[i] = c;
+			printf("%d", arr[i]);
 			break;
 		}
 		}
-	}
-
-	for (int i = index; i > 0; i--)
-	{
-		printf("%s", str[i]);
 	}
 
 	return 0;
