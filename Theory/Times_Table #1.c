@@ -3,19 +3,20 @@ void multiply(int);
 
 int main(void)
 {
-	int table;
+	int number;
+	
+	printf("Please enter the number: ");
+	scanf("%d", &number);
 
-	scanf("%d", &table);
-
-	multiply(table);
+	multiply(number);
 
 	return 0;
 }
 
-void multiply(int table)
+void multiply(int number)
 {
 	for (int i = 1; i <= 9; i++)
 	{
-		printf("%d × %d = %d\n", table, i, table * i);
+		printf("%d × %d = %d\n", number, i, number * i);
 	}
 }
