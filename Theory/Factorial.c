@@ -4,7 +4,8 @@ int factorial(int);
 int main(void)
 {
 	int factor;
-
+	
+	printf("Please enter the number: ");
 	scanf("%d", &factor);
 
 	printf("%d", factorial(factor));
