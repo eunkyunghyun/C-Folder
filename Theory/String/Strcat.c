@@ -7,7 +7,7 @@ int main(void)
 
 	strcat(str, ",World!");
 
-	printf("%s", str);
+	printf("%s\n", str);
 
 	return 0;
 }
