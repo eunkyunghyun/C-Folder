@@ -7,7 +7,7 @@ int main(void)
 
 	strcpy(str, "Hello, World!");
 
-	printf("%s", str);
+	printf("%s\n", str);
 
 	return 0;
 }
