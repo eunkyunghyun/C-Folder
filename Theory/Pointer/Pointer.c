@@ -2,12 +2,12 @@
 
 int main(void)
 {
-	int x = 10;
+	int value = 10;
 	int* ptr;
 
-	ptr = &x;
+	ptr = &value;
 
-	printf("%p %d\n", &x, x);
+	printf("%p %d\n", &value, value);
 	printf("%p %d\n", ptr, *ptr);
 
 	return 0;
